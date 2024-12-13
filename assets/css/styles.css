@@ -233,3 +233,74 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+/* Animations des boutons */
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: #e68900;
+}
+
+/* Menu sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #333;
+}
+
+/* Animations d’apparition */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Section Témoignages */
+#testimonials {
+    background: #f9f9f9;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+blockquote footer {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .navbar ul {
+        flex-direction: column;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 0.5rem 1rem;
+    }
+}

@@ -15,3 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+// Animation d'apparition lors du défilement
+const elements = document.querySelectorAll(".fade-in");
+
+window.addEventListener("scroll", () => {
+    elements.forEach((el) => {
+        if (el.getBoundingClientRect().top < window.innerHeight) {
+            el.classList.add("visible");
+        }
+    });
+});
