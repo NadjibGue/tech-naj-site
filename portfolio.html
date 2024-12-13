@@ -3,37 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech-Naj - Portfolio</title>
+    <meta name="description" content="Découvrez les projets réalisés par Tech-Naj : création de logos, design de flyers et optimisation SEO.">
+    <title>Portfolio - Tech-Naj</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="hero">
-        <div class="container">
+        <div class="hero-content">
             <h1>Projets réalisés</h1>
         </div>
     </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Section -->
     <main>
-        <section id="portfolio" class="container">
-            <h2>Nos réalisations</h2>
-            <div class="gallery">
-                <div class="project">
-                    <img src="assets/img/logos/logo1.png" alt="Logo exemple">
-                    <h3>Création d'un logo</h3>
-                    <p>Logo moderne pour une entreprise de consulting.</p>
-                </div>
-                <div class="project">
-                    <img src="assets/img/flyers/flyer1.png" alt="Flyer exemple">
-                    <h3>Design de flyers</h3>
-                    <p>Conception d'un flyer pour un événement marketing.</p>
-                </div>
-                <div class="project">
-                    <img src="assets/img/seo-results/result1.png" alt="Résultat SEO">
-                    <h3>Optimisation SEO</h3>
-                    <p>Amélioration du trafic web : +150% en 3 mois.</p>
+        <section id="portfolio" class="fade-in" style="--delay: 0.3s;">
+            <div class="container">
+                <h2>Nos réalisations</h2>
+                <div class="gallery">
+                    <div class="project">
+                        <img src="assets/img/logos/logo1.png" alt="Logo exemple">
+                        <h3>Création d'un logo</h3>
+                        <p>Logo moderne pour une entreprise de consulting.</p>
+                    </div>
+                    <div class="project">
+                        <img src="assets/img/flyers/flyer1.png" alt="Flyer exemple">
+                        <h3>Design de flyers</h3>
+                        <p>Flyer professionnel pour un événement marketing.</p>
+                    </div>
+                    <div class="project">
+                        <img src="assets/img/seo-results/result1.png" alt="Résultat SEO">
+                        <h3>Optimisation SEO</h3>
+                        <p>Amélioration du trafic web : +150% en 3 mois.</p>
+                    </div>
                 </div>
             </div>
-            
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tech-Naj. Tous droits réservés.</p>
+        </div>
+    </footer>
 </body>
 </html>

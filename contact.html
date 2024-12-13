@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech-Naj - Contact</title>
+    <meta name="description" content="Contactez Tech-Naj pour vos besoins en informatique, design graphique et marketing digital.">
+    <title>Contact - Tech-Naj</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="hero">
-        <div class="container">
+        <div class="hero-content">
             <h1>Contactez-nous</h1>
             <p>Vous avez une question ou un projet ? Nous sommes là pour vous aider.</p>
         </div>
     </header>
 
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Projets réalisés</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
     </nav>
 
+    <!-- Contact Section -->
     <main>
-        <section id="contact">
+        <section id="contact" class="fade-in" style="--delay: 0.3s;">
             <div class="container">
                 <h2>Formulaire de contact</h2>
                 <form action="#" method="POST">
@@ -43,19 +46,13 @@
                     <label for="message">Message :</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
 
-                    <button type="submit">Envoyer</button>
+                    <button type="submit" class="btn">Envoyer</button>
                 </form>
-
-                <div class="contact-info">
-                    <h3>Nos coordonnées</h3>
-                    <p><i class="fa fa-phone"></i> Téléphone : +33 6 12 34 56 78</p>
-                    <p><i class="fa fa-envelope"></i> Email : contact@tech-naj.com</p>
-                    <p><i class="fa fa-map-marker"></i> Adresse : 123 Avenue des Solutions, Paris</p>
-                </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
             <p>&copy; 2024 Tech-Naj. Tous droits réservés.</p>

@@ -7,71 +7,171 @@
     <meta name="keywords" content="informatique, SEO, création de logo, flyers, Google My Business, dépannage informatique">
     <meta name="author" content="Tech-Naj">
     <title>Tech-Naj - Votre expert en informatique et marketing digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="assets/js/scripts.js" defer></script>
 </head>
 <body>
+    <!-- Hero Section -->
     <header class="hero">
-        <div class="container">
-            <h1>Bienvenue chez Tech-Naj</h1>
-            <p>Votre partenaire pour des solutions informatiques, marketing et digitales sur mesure.</p>
-            <a href="contact.html" class="btn">Contactez-nous</a>
+        <div class="hero-content">
+            <h1 class="fade-in" style="--delay: 0.3s;">Tech-Naj</h1>
+            <p class="fade-in" style="--delay: 0.5s;">Des solutions numériques sur mesure pour transformer vos idées en succès.</p>
+            <div class="btn-group fade-in" style="--delay: 0.7s;">
+                <a href="services.html" class="btn">Nos services</a>
+                <a href="contact.html" class="btn btn-alt">Contactez-nous</a>
+            </div>
         </div>
     </header>
 
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Projets réalisés</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
 
-    <main>
-        <section id="about">
-            <div class="container">
-                <h2>À propos</h2>
-                <p>Chez Tech-Naj, nous mettons notre expertise au service des particuliers et des entreprises. Nous offrons des solutions innovantes en informatique, marketing digital et création graphique.</p>
+    <!-- Why Us Section -->
+    <section id="why-us" class="fade-in" style="--delay: 0.3s;">
+        <div class="container">
+            <h2>Pourquoi nous choisir ?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <img src="./assets/img/choisir.webp" alt="Rapidité" class="feature-image">
+                    <h3>Rapidité</h3>
+                    <p>Des solutions efficaces et rapides pour vos besoins informatiques et digitaux.</p>
+                </div>
+                <div class="feature">
+                    <img src="./assets/img/travaicreat.webp" alt="Expertise" class="feature-image">
+                    <h3>Expertise</h3>
+                    <p>Une équipe expérimentée pour vous accompagner dans vos projets.</p>
+                </div>
+                <div class="feature">
+                    <img src="./assets/img/seo.webp" alt="Fiabilité" class="feature-image">
+                    <h3>Fiabilité</h3>
+                    <p>Des résultats fiables et une satisfaction client garantie.</p>
+                </div>
+                <div class="feature">
+                    <img src="./assets/img/hero-bg.webp" alt="Service personnalisé" class="feature-image">
+                    <h3>Service personnalisé</h3>
+                    <p>Un accompagnement sur mesure adapté à vos besoins spécifiques.</p>
+                </div>
             </div>
-        </section>
-        <section id="cta" class="fade-in">
-            <div class="container">
-                <h2>Besoin de solutions sur mesure ?</h2>
-                <a href="contact.html" class="btn">Demandez un devis gratuit</a>
+        </div>
+    </section>
+    
+    <!-- Services Preview Section -->
+    <section id="services-preview" class="fade-in" style="--delay: 0.5s;">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <i class="fa fa-line-chart"></i>
+                    <h3>SEO et marketing digital</h3>
+                    <p>Optimisez votre visibilité en ligne et attirez plus de clients.</p>
+                </div>
+                <div class="service">
+                    <i class="fa fa-paint-brush"></i>
+                    <h3>Design graphique</h3>
+                    <p>Des créations modernes pour vos logos, flyers et supports visuels.</p>
+                </div>
+                <div class="service">
+                    <i class="fa fa-wrench"></i>
+                    <h3>Dépannage informatique</h3>
+                    <p>Réparez vos équipements rapidement avec nos experts.</p>
+                </div>
             </div>
-        </section>
-        
-        <section id="services">
-            <div class="container">
-                <h2>Nos services</h2>
-                <p>Découvrez nos prestations en <a href="services.html">cliquant ici</a>.</p>
+            <a href="services.html" class="btn">Découvrir tous nos services</a>
+        </div>
+    </section>
+    <section id="stats" class="fade-in" style="--delay: 0.6s;">
+        <div class="container">
+            <h2>Nos Réalisations en Chiffres</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>+150</h3>
+                    <p>Projets réalisés</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa fa-smile-o"></i>
+                    <h3>+120</h3>
+                    <p>Clients satisfaits</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa fa-clock-o"></i>
+                    <h3>+5000</h3>
+                    <p>Heures de travail</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa fa-line-chart"></i>
+                    <h3>+80%</h3>
+                    <p>Croissance moyenne</p>
+                </div>
             </div>
-        </section>
-        <section id="testimonials" class="fade-in">
-            <div class="container">
-                <h2>Ce que disent nos clients</h2>
-                <blockquote>
-                    "Grâce à Tech-Naj, mon site web est rapide et génère plus de visites."
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="fade-in" style="--delay: 0.7s;">
+        <div class="container">
+            <h2>Ce que disent nos clients</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p>"Grâce à Tech-Naj, notre site web est plus performant que jamais."</p>
                     <footer>— Jean Dupont, Entrepreneur</footer>
-                </blockquote>
-                <blockquote>
-                    "Le design de mon flyer et mon logo ont impressionné mes clients."
+                </div>
+                <div class="testimonial">
+                    <p>"Leur design graphique a donné un nouveau souffle à notre image."</p>
                     <footer>— Sarah Lemoine, Indépendante</footer>
-                </blockquote>
+                </div>
+                <div class="testimonial">
+                    <p>"Un service rapide et personnalisé. Merci Tech-Naj !"</p>
+                    <footer>— Marc Durand, Artisan</footer>
+                </div>
             </div>
-        </section>
-        
-    </main>
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Abonnez-vous à notre newsletter</h3>
+                    <form id="newsletter-form" action="#" method="POST">
+                        <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+                        <button type="submit" class="btn">S'abonner</button>
+                    </form>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Nous suivre</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
             <p>&copy; 2024 Tech-Naj. Tous droits réservés.</p>
         </div>
     </footer>
+    
 </body>
 </html>
